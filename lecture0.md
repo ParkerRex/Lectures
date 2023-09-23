@@ -20,3 +20,18 @@ Today:
 - Javascript
 - SQL
 - Python
+
+Do everything serially:
+
+Pick up the phone book
+Open to middle of the phone bookLook at page 
+if person is on the page 
+    Call person 
+Else if person is earlier in book
+    Open to middle of left half of book
+    Go back to line 3
+Else if person is later in book 
+    Open to middle of right half of book
+    Go back to line 3
+Else    
+    Quit
